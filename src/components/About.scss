@@ -1,0 +1,108 @@
+.about{
+    background-color: rgb(213,28,41);
+    // min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 5rem;
+   
+        .about-txt{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0 4rem;
+            
+
+            h3{
+                font-size: 2rem;
+                text-align: center;
+                font-weight: bold;
+                color: white;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            p{
+                font-size: 1.4rem;
+                font-style: italic;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                width: 100%;
+            }
+        }
+
+        .about-wrapper{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin: 1rem 0;
+    
+            .about-circulo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin:.5rem;
+    
+                h5{
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                    margin-bottom: 0; 
+                    margin-top: 1rem;
+                    color: rgb(255, 255, 255);
+                }
+    
+                .about-icons{
+                    background-color: rgb(255, 255, 255); 
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding:1rem;
+                    margin-bottom: 0;
+    
+                    svg{
+                        font-size: 4rem;
+                        color: rgb(213,28,41);
+                    }
+                }
+            }
+        }
+    
+}
+
+@media (max-width: 666px) {
+    .about{
+        padding: 3rem 2rem;
+        
+        .about-txt{
+            padding: 0;
+            
+            h3{
+                font-size: 2rem; 
+                margin-bottom: 2rem;
+            }
+        }
+        
+        .about-wrapper{
+            // flex-direction: column;
+            align-items: center;
+            .about-circulo{
+                width: 30%;
+                h5{
+                    font-size: .8rem;
+                }
+                .about-icons{
+                    svg{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}

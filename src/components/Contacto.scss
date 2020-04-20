@@ -1,0 +1,109 @@
+.contact{
+    background-color: rgb(213,28,41);
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .contact-background{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    h3{
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 4rem;
+        text-align: center;
+    }
+
+    h4{
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .contact-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 3rem;
+
+        .contact-wrapper{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            h6{
+                color: white;
+                font-weight: bold;
+            }
+
+            p{
+                color: white;
+                font-weight: lighter;
+                text-align: center;
+            }
+
+            a{
+                color: white;  
+            }
+
+            svg{
+                font-size: 4rem;
+                margin-bottom: 1rem;
+                color: rgb(45,194,201)
+            }
+        // .cta-btn--hero {
+        // // background-image: linear-gradient(135deg,#000000,#804040);
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent white;
+        // border: 1px solid transparent;
+        // // -o-border-image: linear-gradient(135deg,#000000,#000000);
+        // border-image: linear-gradient(135deg,#000000,#c0bbbb);
+        // border-image-slice: 1;
+        // color: rgb(0, 0, 0);
+        // font-weight: bold;
+        // margin-bottom: 3rem;
+        // }
+        // .cta-btn {
+        // display: inline-block;
+        // position: relative;
+        // padding: .8rem 1.6rem;
+        // line-height: 1;
+        // z-index: 1;
+        // transition: all .6s cubic-bezier(.19,1,.22,1);
+        
+        // }
+
+        }
+    }
+
+    @media (max-width: 800px) {
+        h3{
+            font-size: 2rem; 
+            margin-bottom: 2rem;
+        }
+
+        h4{
+            font-size: 1.5rem; 
+        }
+        .contact-container{
+            flex-direction: column;
+            .contact-wrapper{
+                width: 100%;
+            }
+        }
+    }
+
+}
+
