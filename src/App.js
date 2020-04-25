@@ -3,8 +3,8 @@ import './App.css';
 // import Nav from "./components/Nav";
 import Main from "./components/Main";
 import About from "./components/About";
-import VideoComercio from "./components/VideoComercio";
-import Proyects from "./components/Proyects";
+import Noticias from "./components/Noticias";
+import Comercio from "./components/Comercio";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
 
@@ -17,8 +17,8 @@ class App extends Component {
           {/* <Nav/> */}
           <Main/>
           <About/>
-          <Proyects/>
-          <VideoComercio/>
+          <Comercio/>
+          <Noticias/>
           <Contacto/>
           <Footer/>
         </div>

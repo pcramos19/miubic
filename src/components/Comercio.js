@@ -1,12 +1,12 @@
 import React from "react";
-import "./Proyects.scss";
+import "./Comercio.scss";
 
 import CardTravelIcon from '@material-ui/icons/CardTravel';
 import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import InsertCommentIcon from '@material-ui/icons/InsertComment';
 
 
-class Proyects extends React.Component {
+class Comercio extends React.Component {
 
     
     render() {
@@ -47,13 +47,13 @@ class Proyects extends React.Component {
                 </div>
 
                 <div className="proyects-wrapper">
-                    <div>
+                    <div className="ventajas">
                         <h3>Ventajas para los comercios</h3>
-                        <p>- Panel intuitivo y fácil.</p>
-                        <p>- Autogestión de ofertas.</p>
-                        <p>- Comunicación directa con tus clientes.</p>
-                        <p>- Códigos MiUbic para los clientes.</p>
-                        <p>- Escaner de código QR para la validación.</p>
+                        <p>Panel intuitivo y fácil.</p>
+                        <p>Autogestión de ofertas.</p>
+                        <p>Comunicación directa con tus clientes.</p>
+                        <p>Códigos MiUbic para los clientes.</p>
+                        <p>Escaner de código QR para la validación.</p>
                     </div>
                     <video src="../../miubic-usuarios (1).mp4" width="50%" height="50%" controls></video>
                 </div>
@@ -63,4 +63,4 @@ class Proyects extends React.Component {
     }
 }
 
-export default Proyects;
+export default Comercio;

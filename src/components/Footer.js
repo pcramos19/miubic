@@ -13,7 +13,7 @@ class Footer extends React.Component {
                     <a href="https://www.linkedin.com/in/pc-ramos/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a>
                     <a href="https://twitter.com/Mascagranzas" target="_blank" rel="noopener noreferrer"><TwitterIcon/></a>
                 </div> */}
-               <p>Copyright © PRamos 2020</p>               
+               <p>Copyright © Miubic 2020</p>               
             </section>
         )
     }
