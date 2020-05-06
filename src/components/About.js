@@ -12,7 +12,7 @@ class About extends React.Component {
 
                 <div className="about-txt">
                     <h3>¿Qué es Miubic?</h3>
-                    <p>"Plataforma digital que agrupa comercios de proximidad, donde encontrarás las mejores ofertas en cada uno de ellos."</p>
+                    <p>"Plataforma digital que agrupa comercios por proximidad, donde encontrarás las mejores ofertas en cada uno de ellos."</p>
                 </div>
 
                 <div className="about-wrapper">

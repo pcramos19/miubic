@@ -15,11 +15,19 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        margin-top: 2rem;
         margin-bottom: 5rem;
+
+        h3{
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-right: 2rem;
+        }
 
         .proyects-text {
             width: 50%;
             margin-right: 2rem; 
+            line-height: 1.5rem;
         }
 
         .proyects-solution{
@@ -43,6 +51,7 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 5rem;
+        margin-top: 3rem;
 
         .capta-circulo{
             width: 33%;
@@ -74,6 +83,13 @@
         align-items: flex-start;
         margin-bottom: 2rem;
 
+        video{
+            outline: none;
+            border: none;
+            border-radius: 5px;
+             
+        }
+
         .ventajas{
             text-align: start;
             
@@ -81,6 +97,11 @@
                 font-size: 1.5rem;
                 margin-top: 0;
                 margin-right: 2rem;
+            }
+
+            ul {
+                line-height: 2rem;
+
             }
         }
 
@@ -98,7 +119,7 @@
             }
             .proyects-contain{
                 padding: 0;
-                flex-direction: column-reverse;
+                flex-direction: column;
 
                 .proyects-text {
                     width: 90%;
@@ -129,7 +150,7 @@
                     }
 
                     p{
-                        display: none;
+                        display: block;
                     }
                 }
 
