@@ -15,7 +15,7 @@ class Comercio extends React.Component {
             <section id="proyects" className="proyects">
                 <div className="proyects-contain">
                     <div className="proyects-text">
-                    <h3>Digitalización de comercios</h3>
+                        <h3>Digitalización de comercios</h3>
                         <p>La mayoría de los pequeños negocios están aún sin digitalizar. Web estáticas, sin visibilidad en Redes Sociales, y por tanto, sin comunicación con sus clientes a tiempo real.</p>
                         <p>Son los que menos soluciones digitales han implantado. “La falta de recursos económicos, conocimientos técnicos o tiempo son las barreras más comunes que impiden la digitalización”.</p>
                         <p>Sin embargo la digitalización de las empresas es fundamental para su desarrollo y crecimiento.</p>
@@ -27,18 +27,11 @@ class Comercio extends React.Component {
 
                 </div>
 
-                <div className="proyects-wrapper">
+                <div className="proyects-wrapper-comercio">
                     <video src="../../miubic-usuarios (1).mp4" width="50%" height="50%" autoPlay muted controls></video>
-                    <div className="ventajas">
-                    <h3>Ventajas para los comercios</h3>
-                        <ul>
-                            <li>Panel intuitivo y fácil.</li>
-                            <li>Autogestión de ofertas.</li>
-                            <li>Visibilidad de tu comercio desde cualquier lugar.</li>
-                            <li>Comunicación directa con tus clientes.</li>
-                            <li>Códigos MiUbic para los clientes.</li>
-                            <li>Escaner de código QR para la validación.</li>
-                        </ul>
+                    <div className="ventajas-comercio">
+                        <h3>Ventajas para los comercios</h3>
+                        <p>Con Miubic, una plataforma con un panel intuitivo y fácil de usar el comercio adquiere visibilidad desde cualquier lugar. Obtendrá una comunicación directa con tus clientes. Tendrás una autogestión de todas tus ofertas, con una validación de las mismas de manera sencilla con código QR. Códigos MiUbic para fidelización de los clientes </p>
                     </div>
                 </div>
 
@@ -62,15 +55,8 @@ class Comercio extends React.Component {
 
                 <div className="proyects-wrapper">
                     <div className="ventajas">
-                    <h3>Ventajas para los usuarios</h3>
-                        <ul>
-                            <li>Fácil de usar.</li>
-                            <li>Descubrir todos los comercios de la zona.</li>
-                            <li>Información instantanea de promociones y descuentos.</li>
-                            <li>Beneficio de tarjeta de puntos en comercios.</li>
-                            <li>Ayuda a la digitalización de los comercios del barrio.</li>
-                            <li>Disponible en cualquier plataforma.</li>
-                        </ul>
+                        <h3>Ventajas para los usuarios</h3>
+                        <p>Con esta aplicación de sencillo uso podrás conocer todos los comercios en un radio de Km desde tu posición. Recibirás notificaciones de manera instantanea todos los descuentos y promociones cerca de ti. Podrás beneficiarte de una tarjeta de puntos en cada comercio. Con el uso de Miubic ayudas a la digitalización del pequeño comercio del barrio. Disponible en cualquier dispositivo.</p>
                     </div>
                     <video src="../../miubic-usuarios (1).mp4" width="50%" height="50%" autoPlay muted controls></video>
                 </div>

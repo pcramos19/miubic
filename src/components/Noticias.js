@@ -1,6 +1,6 @@
 import React from "react";
 import "./Noticias.scss"
-
+import Noticia from "./Noticia"
 
 
 class Noticias extends React.Component {
@@ -9,7 +9,9 @@ class Noticias extends React.Component {
             <>
                 <section id="noticias" className="noticias">
                     <h3>Noticias</h3>
-
+                    <div>
+                        <Noticia/>
+                    </div>
                 </section>
             </>
         )

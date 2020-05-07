@@ -18,20 +18,20 @@
         margin-top: 2rem;
         margin-bottom: 5rem;
 
-        h3{
-            font-size: 1.5rem;
-            margin-top: 0;
-            margin-right: 2rem;
-        }
-
         .proyects-text {
-            width: 50%;
+            width: 60%;
             margin-right: 2rem; 
             line-height: 1.5rem;
+
+            h3{
+                font-size: 1.5rem;
+                margin-top: 0;
+                margin-right: 2rem;
+            }
         }
 
         .proyects-solution{
-            width: 50%;
+            width: 40%;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -41,6 +41,34 @@
                 width: 300px;
             }
         }
+    }
+
+    .proyects-wrapper-comercio{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+
+        video{
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            margin-right: 2rem;
+        }
+
+        .ventajas-comercio{
+            text-align: start;
+            line-height: 1.5rem;
+
+            h3{
+                font-size: 1.5rem;
+                margin-top: 0;
+                margin-right: 2rem;
+            }
+
+        }  
     }
 
     .proyects-capta{
@@ -87,11 +115,12 @@
             outline: none;
             border: none;
             border-radius: 5px;
-             
         }
 
         .ventajas{
             text-align: start;
+            margin-right: 2rem;
+            line-height: 1.5rem;
             
             h3{
                 font-size: 1.5rem;
@@ -99,17 +128,64 @@
                 margin-right: 2rem;
             }
 
-            ul {
-                line-height: 2rem;
+        }  
+    }
+}
+    @media (max-width: 1200px){
+        .proyects{
+            padding: 2rem 0;
 
+            .proyects-wrapper-comercio{
+                width: 100%;
+                flex-direction: column-reverse;
+                justify-content: center;
+                align-items: center;
+
+                .ventajas-comercio{
+                    width: 90%;
+                    text-align: center;
+                    h3{
+                        font-size: 1.5rem;
+                        margin-right: 0; 
+                        margin-bottom: 2rem;
+                    }
+                }
+
+                video{
+                    width: 90%;
+                    height: 90%;
+                    margin-right: 0;
+                }
+            }
+
+            .proyects-wrapper{
+                width: 100%;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .ventajas{
+                    width: 90%;
+                    text-align: center;
+                    margin-right: 0;
+
+                    h3{
+                        font-size: 1.5rem;
+                        margin-right: 0; 
+                        margin-bottom: 2rem;
+                    }
+                }
+
+                video{
+                    width: 90%;
+                    height: 90%;
+                }
             }
         }
 
-        
     }
-}
 
-    @media (max-width: 866px) {
+    @media (max-width: 915px) {
         .proyects{
             padding: 2rem 0;
 
@@ -126,6 +202,11 @@
                     margin-right: 0; 
                     text-align: center;
                     margin-bottom: 1rem;
+
+                    h3{
+                        margin-right: 0;
+  
+                    }
                 }
             }
             .proyects-capta{
@@ -134,31 +215,7 @@
                 border-radius: 0;
                 margin-bottom: 2rem;
             }
-
-            .proyects-wrapper{
-                width: 100%;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                .ventajas{
-
-                    h3{
-                        font-size: 2rem;
-                        margin-right: 0; 
-                        margin-bottom: 2rem;
-                    }
-
-                    p{
-                        display: block;
-                    }
-                }
-
-                video{
-                    width: 90%;
-                    height: 90%;
-                }
-            }
+ 
         }
     }
 
