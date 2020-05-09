@@ -6,9 +6,21 @@
     align-items: center;
     padding: 2rem;
 
+    .terms{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            margin:0;
+            text-align: center;
+        }
+    }
+
     p{
         color:white;
         margin: 1rem;
+        text-align: center;
     }
 
     svg{

@@ -66,51 +66,36 @@
                 margin-bottom: 0;
                 color: rgb(213,28,41);
             }
-        // .cta-btn--hero {
-        // // background-image: linear-gradient(135deg,#000000,#804040);
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent white;
-        // border: 1px solid transparent;
-        // // -o-border-image: linear-gradient(135deg,#000000,#000000);
-        // border-image: linear-gradient(135deg,#000000,#c0bbbb);
-        // border-image-slice: 1;
-        // color: rgb(0, 0, 0);
-        // font-weight: bold;
-        // margin-bottom: 3rem;
-        // }
-        // .cta-btn {
-        // display: inline-block;
-        // position: relative;
-        // padding: .8rem 1.6rem;
-        // line-height: 1;
-        // z-index: 1;
-        // transition: all .6s cubic-bezier(.19,1,.22,1);
-        
-        // }
-
         }
     }
-
+}
     @media (max-width: 800px) {
-        h3{
-            font-size: 2rem; 
-            margin-bottom: 2rem;
-        }
-
-        h4{
-            font-size: 1.5rem; 
-        }
-
-        h5{
-            font-size: 1rem; 
-        }
-        .contact-container{
-            flex-direction: column;
-            .contact-wrapper{
-                width: 100%;
+       .contact{
+            padding: 1rem 1rem;
+            
+           h3{
+               font-size: 2rem; 
+               margin-bottom: 2rem;
+            }
+            
+            h4{
+                font-size: 1.5rem; 
+            }
+            
+            h5{
+                font-size: 1rem; 
+                margin-bottom: 2rem;
+            }
+            .contact-container{
+                flex-direction: column;
+                margin-bottom: 1rem;
+                
+                .contact-wrapper{
+                    width: 100%;
+                }
             }
         }
     }
 
-}
+
 
