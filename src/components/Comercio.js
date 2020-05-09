@@ -17,7 +17,7 @@ class Comercio extends React.Component {
                     <div className="proyects-text">
                         <h3>Digitalización de comercios</h3>
                         <p>La mayoría de los pequeños negocios están aún sin digitalizar. Web estáticas, sin visibilidad en Redes Sociales, y por tanto, sin comunicación con sus clientes a tiempo real.</p>
-                        <p>Son los que menos soluciones digitales han implantado. “La falta de recursos económicos, conocimientos técnicos o tiempo son las barreras más comunes que impiden la digitalización”.</p>
+                        <p>Son los que menos soluciones digitales han implantado. La falta de recursos económicos, conocimientos técnicos o tiempo son las barreras más comunes que impiden la digitalización.</p>
                         <p>Sin embargo la digitalización de las empresas es fundamental para su desarrollo y crecimiento.</p>
                     </div>
 
@@ -31,7 +31,7 @@ class Comercio extends React.Component {
                     <video src="../../VID-20190326-WA0009.mp4" width="50%" height="50%" autoPlay muted controls></video>
                     <div className="ventajas-comercio">
                         <h3>Ventajas para los comercios</h3>
-                        <p>Con Miubic, plataforma digital diseña con un panel intuitivo y de fácil de uso, el comercio adquiere visibilidad plena desde cualquier lugar y dispositivo. Obtendrá una comunicación directa con tus clientes. Tendrá una autogestión de todas tus ofertas, con una validación de las mismas de manera sencilla con el escaneo de códigos QR. Códigos MiUbic para fidelización de los clientes. </p>
+                        <p>Con Miubic, plataforma digital diseña con un panel intuitivo y de fácil de uso, el comercio adquiere visibilidad plena desde cualquier lugar y dispositivo. Obtendrás una comunicación directa con tus clientes. Tendrás una autogestión de todas tus ofertas, con una validación de las mismas de manera sencilla con el escaneo de códigos QR. Códigos MiUbic para fidelización de los clientes. </p>
                     </div>
                 </div>
 
