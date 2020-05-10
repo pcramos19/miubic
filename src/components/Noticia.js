@@ -8,11 +8,17 @@ class Noticia extends React.Component {
         return(
             <>
                 <section id="noticia" className="noticia">
-                    <img src="../../micheile-henderson-fEykiYD9Vk0-unsplash.jpg" alt=""/>
+                    <img src={this.props.noticia.img} alt={this.props.noticia.title}/>
+
                     <div className="container-text">
-                        <h5>¡Nuevas funcionalidades!</h5>
-                        <p>En nuestra búsqueda de ser la ayuda que necesitas hemos desarrollado nuevas funcionalidades para que, ya seas comercio o usuario podamos cubrir tus necesidades y estar a tu lado en cualquier momento.</p>
+                        
+                        <div className="titulo">
+                            <h5>{this.props.noticia.title}</h5>
+                        </div>
+
+                        <p>{this.props.noticia.descripcion}</p>
                     </div>
+                    <a href={this.props.noticia.url} target="_blank" rel="noopener noreferrer"><button>Ver noticia</button></a> 
                 </section>
             </>
         )

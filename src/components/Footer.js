@@ -1,9 +1,8 @@
 import React from "react";
 import "./Footer.scss";
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 class Footer extends React.Component {
     render() {
@@ -12,8 +11,7 @@ class Footer extends React.Component {
                 <div className="icons">
                     <a href="https://www.youtube.com/channel/UCe5TSUB_ff9Oh8puuSNVEcQ" target="_blank" rel="noopener noreferrer"><YouTubeIcon/></a>
                     <a href="https://www.facebook.com/Miubic/" target="_blank" rel="noopener noreferrer"><FacebookIcon/></a>
-                    <a href="https://twitter.com/hashtag/miubic?src=hashtag_click" target="_blank" rel="noopener noreferrer"><TwitterIcon/></a>
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><LinkedInIcon/></a>
+                    <a href="https://www.instagram.com/miubic/?hl=es" target="_blank" rel="noopener noreferrer"><InstagramIcon/></a>
                 </div>
                 <div className="terms">
                     <p>Términos de uso | Política de privacidad | Política de cookies</p>

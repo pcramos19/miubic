@@ -1,0 +1,50 @@
+[
+    {
+        "id": "6",
+        "title": "Nuevas funcionalidades",
+        "fecha":"08/05/2020 15:00",
+        "img": "../micheile-henderson-fEykiYD9Vk0-unsplash.jpg",
+        "descripcion":"En nuestra búsqueda de ser la ayuda que necesitas hemos desarrollado nuevas funcionalidades para que, ya seas comercio o usuario podamos cubrir tus necesidades y estar a tu lado en cualquier momento.",
+        "url":"https://www.facebook.com/pg/Miubic/posts/?ref=page_internal"
+    },
+    {
+        "id": "5",
+        "title": "La ayuda que necesitas",
+        "fecha":"06/05/2020 15:00",
+        "img": "../micheile-henderson-fEykiYD9Vk0-unsplash.jpg",
+        "descripcion":"Desde Miubic queremos que usuarios y comerciantes estén más cerca que nunca por ello ofrecemos nuestra plataforma para que los negocios sin redes puedan incrementar su alcance. Durante la cuarentena ofreceremos este servicio de manera gratuita para comercios en estado de alarma además de dos meses más posteriores a la finalización de este.",
+        "url":"https://www.facebook.com/pg/Miubic/posts/?ref=page_internal"
+    },
+    {
+        "id": "4",
+        "title": "Seguimos impactando",
+        "fecha":"29/04/2020 14:58",
+        "img": "../micheile-henderson-fEykiYD9Vk0-unsplash.jpg",
+        "descripcion":"Y es que en el tiempo que dure la cuarentena cedemos nuestra plataforma a todos los comercios de Madrid de forma totalmente gratuita y sin compromiso de permanencia. Queremos ser un escaparate virtual y mejorar el servicio tanto presencial como a domicilio.",
+        "url":"http://noticias.comerciodearavaca.es/index.php/comercio-informa-sobre-una-app-para-comercios-pequenos/?fbclid=IwAR1S-d3eWZoEv11NQ2bpYRa7W2TF70ykGptxUf5kojlq9q8Hu9K6NUy9-vo"
+    },
+    {
+        "id": "3",
+        "title": "Somos noticia",
+        "fecha":"28/04/2020 15:00",
+        "img": "../micheile-henderson-fEykiYD9Vk0-unsplash.jpg",
+        "descripcion":"Ahora más que nunca queremos ayudar, por ello, desde Miubic hemos cedido nuestra plataforma a los comercios para que puedan estar más cerca de sus clientes y los mantengan informados. Te dejamos el link de la noticia para que te enteres de todo, puedas beneficiarte o contactes con nosotros.",
+        "url":"https://carnimad.es/noticias/miubic-la-digitalizacion-del-comercio-del-barrio/?fbclid=IwAR1C_-MHxKnWJ2jYLzDXx9MMqTrtTTRHtxjRG46QAnFU7VoXsSK_IRv587w"
+    },
+    {
+        "id": "2",
+        "title": "Los comercios de Alcorcón siguen contigo",
+        "fecha":"22/04/2020 15:00",
+        "img": "../micheile-henderson-fEykiYD9Vk0-unsplash.jpg",
+        "descripcion":"El estado de alarma continua pero para facilitarte las cosas muchos comercios locales abren sus puertas para que tengas aquello que necesites a tu alcance y puedas seguir luchando desde casa. En Miubic encontrarás todos los comercios de tu zona que están abiertos junto con toda la información que necesitas y ofertas exclusivas. Ellos siguen saliendo por ti, ahora tú puedes ayudarles.",
+        "url":"https://www.facebook.com/pg/Miubic/posts/?ref=page_internal"
+    },
+    {
+        "id": "1",
+        "title": "El Molar sigue apoyando el comercio local",
+        "fecha":"20/04/2020 15:00",
+        "img": "../micheile-henderson-fEykiYD9Vk0-unsplash.jpg",
+        "descripcion":"Si eres de El Molar y quieres ayudar a los comercios locales de tu zona, entra en nuestra app y descubre todos aquellos establecimientos que siguen abiertos a tu servicio en estos tiempos de confinamiento. En Miubic encontraras todo tipo de comercios, ofertas e información necesaria para que estos días sean más fáciles. Ellos siguen saliendo para ayudarte y tu puedes ayudarlos a ellos.",
+        "url":"https://www.facebook.com/pg/Miubic/posts/?ref=page_internal"
+    }
+]
