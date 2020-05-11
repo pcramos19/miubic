@@ -14,6 +14,7 @@ class Noticia extends React.Component {
                         
                         <div className="titulo">
                             <h5>{this.props.noticia.title}</h5>
+                            <hr></hr>
                         </div>
 
                         <p>{this.props.noticia.descripcion}</p>
