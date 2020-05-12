@@ -31,7 +31,9 @@ class Comercio extends React.Component {
                     <video src="../../VID-20190326-WA0009.mp4" width="50%" height="50%" autoPlay muted controls></video>
                     <div className="ventajas-comercio">
                         <h3>Ventajas para los comercios</h3>
-                        <p>Con Miubic, por tan sólo <span>9'99€/mes</span> el comercio adquiere visibilidad plena desde cualquier lugar y dispositivo. Con una plataforma digital diseña con un panel intuitivo y de fácil uso, obtendrás una comunicación directa con tus clientes. Tendrás una autogestión de todas tus ofertas, con una validación de las mismas de manera sencilla con el escaneo de códigos QR. Códigos MiUbic para fidelización de los clientes. </p>
+                        <p>Con Miubic, por tan sólo <span>9'99€/mes</span> el comercio adquiere visibilidad plena desde cualquier lugar y dispositivo. Con una plataforma digital diseña con un panel intuitivo y de fácil uso, obtendrás una comunicación directa con tus clientes.</p>
+                        <p>Tendrás una autogestión de todas tus ofertas, con una validación de las mismas de manera sencilla con el escaneo de códigos QR.</p>
+                        <p>Además dispones de videos tutoriales en nuestro <a href="https://www.youtube.com/channel/UCe5TSUB_ff9Oh8puuSNVEcQ">canal de Youtube</a> sobre el funcionamiento de la plataforma, como el registro de nuevos comercios, creación de ofertas, etc.</p>
                     </div>
                 </div>
 
@@ -56,7 +58,8 @@ class Comercio extends React.Component {
                 <div className="proyects-wrapper">
                     <div className="ventajas">
                         <h3>Ventajas para los usuarios</h3>
-                        <p>Con esta aplicación de sencillo uso podrás conocer todos los comercios en un radio de Km desde tu posición. Recibirás notificaciones de manera instantanea todos los descuentos y promociones cerca de ti. Podrás beneficiarte de una tarjeta de puntos en cada comercio. Con el uso de Miubic ayudas a la digitalización del pequeño comercio del barrio. Disponible en cualquier dispositivo.</p>
+                        <p>Con esta aplicación de sencillo uso podrás conocer todos los comercios en un radio de Km desde tu posición. Recibirás notificaciones de manera instantanea todos los descuentos y promociones cerca de ti. Podrás beneficiarte de una tarjeta de puntos en cada comercio.</p>
+                        <p>Con el uso de Miubic ayudas a la digitalización del pequeño comercio del barrio. Disponible en cualquier dispositivo.</p>
                     </div>
                     <video src="../../miubic-usuarios (1).mp4" width="50%" height="50%" autoPlay muted controls></video>
                 </div>
