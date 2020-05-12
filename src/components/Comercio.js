@@ -31,7 +31,7 @@ class Comercio extends React.Component {
                     <video src="../../VID-20190326-WA0009.mp4" width="50%" height="50%" autoPlay muted controls></video>
                     <div className="ventajas-comercio">
                         <h3>Ventajas para los comercios</h3>
-                        <p>Con Miubic, por tan sólo <span>9'99€/mes</span> el comercio adquiere visibilidad plena desde cualquier lugar y dispositivo. Con una plataforma digital diseña con un panel intuitivo y de fácil uso, obtendrás una comunicación directa con tus clientes.</p>
+                        <p>Con Miubic, por tan sólo <span>9'95€/mes</span> el comercio adquiere visibilidad plena desde cualquier lugar y dispositivo. Con una plataforma digital diseñada con un panel intuitivo y de fácil uso, obtendrás una comunicación directa con tus clientes.</p>
                         <p>Tendrás una autogestión de todas tus ofertas, con una validación de las mismas de manera sencilla con el escaneo de códigos QR.</p>
                         <p>Además dispones de videos tutoriales en nuestro <a href="https://www.youtube.com/channel/UCe5TSUB_ff9Oh8puuSNVEcQ">canal de Youtube</a> sobre el funcionamiento de la plataforma, como el registro de nuevos comercios, creación de ofertas, etc.</p>
                     </div>

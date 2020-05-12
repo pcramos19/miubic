@@ -19,7 +19,7 @@ class Contacto extends React.Component {
                             <p>Hola@miubic.com</p>
                         </div>
                         <div className="contact-wrapper">
-                        <a href="#!"><WhatsAppIcon/></a>
+                        <a href="https://wa.me/34633521297?text=Hola" target="_blank" rel="noopener noreferrer"><WhatsAppIcon/></a>
                             <p>+34 633 521 297</p>
                         </div>
                     </div>
