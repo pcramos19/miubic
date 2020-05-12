@@ -19,7 +19,7 @@ class Noticia extends React.Component {
 
                         <p>{this.props.noticia.descripcion}</p>
                     </div>
-                    <a href={this.props.noticia.url} target="_blank" rel="noopener noreferrer"><button>Ver noticia</button></a> 
+                    <a href={this.props.noticia.url} target="_blank" rel="noopener noreferrer"><button>Leer más</button></a> 
                 </section>
             </>
         )

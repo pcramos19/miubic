@@ -1,16 +1,13 @@
 .noticia {
     // background-color: white;
     width: 300px;
-    // max-height: 400px;
+    // max-height: 600px;
     margin: .8rem;
 
     img{
         width: 100%;
-        height: 40%;
+        height: 200px;
         border-radius: 5px;
-        // -webkit-box-shadow: -5px 5px 60px -28px rgba(255,255,255,0.8);
-        // -moz-box-shadow: -5px 5px 60px -28px rgba(255,255,255,0.8);
-        // box-shadow: -1px 5px 55px 2px rgba(255, 255, 255, 0.3);
     }
 
 
@@ -19,7 +16,7 @@
 
     .container-text{
         line-height: 1.2rem;
-
+        
         .titulo{
             font-weight: bolder;
             padding: 0;
@@ -34,7 +31,7 @@
             }
 
             hr{
-                width: 10%;
+                width: 15%;
                 text-align: start;
                 margin:0;
             }
@@ -52,10 +49,11 @@
         border-radius: 5px;
         padding: .5rem;
         color: white;
-        font-family: Comfortaa;
+        font-family: Ubuntu;
         font-size: .9rem;
-        font-weight: bolder;
+        font-weight: lighter;
         text-align: start;
         cursor: pointer;
+        text-decoration: none;
     }
 }

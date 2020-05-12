@@ -1,7 +1,7 @@
 .main{
     min-height: 100vh;
     height: 100vh;
-    background-image: url("../micheile-henderson-fEykiYD9Vk0-unsplash.jpg");
+    background-image: url("../fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-attachment: fixed;
@@ -15,7 +15,7 @@
     .main-wrapper{
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.3);
+        background-color: rgba(255, 255, 255, 0.4);
         display: flex;
         flex-direction: column;
         justify-content: center;

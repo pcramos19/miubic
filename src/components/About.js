@@ -12,8 +12,7 @@ class About extends React.Component {
 
                 <div className="about-txt">
                     <h3>¿Qué es Miubic?</h3>
-                    <p>"Plataforma digital que agrupa comercios por proximidad, donde encontrarás las mejores ofertas en cada uno de ellos."</p>
-                    {/* <p>Solo por 9,99€ al mes.</p>              */}
+                    <p>"Plataforma digital que agrupa comercios por proximidad, donde encontrarás las mejores ofertas en cada uno de ellos."</p>           
                 </div>
 
                 <div className="about-wrapper">
@@ -40,7 +39,7 @@ class About extends React.Component {
                     </div>
 
                 </div>
-
+ 
             </section>
         )
     }

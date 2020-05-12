@@ -1,7 +1,7 @@
 .login-box{
 		width: 100vw;
 		height: 100vh;
-		background-image: url("../../micheile-henderson-fEykiYD9Vk0-unsplash.jpg");
+		background-image: url("../../fondo.jpg");
 		background-repeat: no-repeat;
 		background-size: cover; 
 		background-attachment: fixed;
@@ -10,7 +10,7 @@
 .login {
 	max-width: 100vw;
 	height: 100%;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.4);
 	margin: 0 auto;
 	border-radius: 3px;
 	display: flex;
@@ -29,7 +29,7 @@
 	// position: absolute;
 	// left: 500px;
 	// top: 135px;
-	margin: 1vw;
+	margin: 2%;
 	padding: 20px 20px;
 	border-radius: 8px;
   }
@@ -53,7 +53,7 @@
   }
 
   .login .form h5 {
-	color: rgb(255, 0, 0);
+	color: rgb(213,28,41);
 	font-size: 15px;
 	margin-top: 10px;
   }
@@ -83,7 +83,7 @@
   }
   .login .form input[type=submit] {
 	width: 100%;
-	background: rgb(0, 0, 0);
+	background-color: rgb(213,28,41);
 	color: rgb(255, 255, 255);
 	font-size: 15px;
 	margin-top: 20px;

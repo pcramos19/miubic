@@ -56,7 +56,7 @@ class Login extends Component {
             <input type="text" name="username" placeholder="Usuario" value={this.state.username} onChange={e => this.handleChange(e)} required/>
             <input type="password" name="password" placeholder="Contraseña" value={this.state.password} onChange={e => this.handleChange(e)} required/>
             <h5>{this.state.error ? 'Usuario o contraseña incorrecta' : ''}</h5>
-            <input type="submit" value="Login" />
+            <input type="submit" value="Iniciar sesión" />
           </form>
         </div>
       </div>
