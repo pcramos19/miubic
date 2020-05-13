@@ -17,7 +17,7 @@ class Noticia extends React.Component {
                             <hr></hr>
                         </div>
 
-                        <p>{this.props.noticia.descripcion}</p>
+                        <p><span>{this.props.noticia.medio} |</span> {this.props.noticia.descripcion}</p>
                     </div>
                     <a href={this.props.noticia.url} target="_blank" rel="noopener noreferrer"><button>Leer más</button></a> 
                 </section>
